@@ -1,0 +1,187 @@
+body {
+    background-color: antiquewhite;
+    color: cornflowerblue;
+
+    font-size: 16px;
+    font-weight: normal;  
+    font-family: "Roboto Condensed", sans-serif;
+    
+    /* font: normal 16px 'Roboto Condensed, sans-serif' */
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(12, 248, 63);
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px;
+    
+}
+
+@media (max-width: 700px) {
+    .info {
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+     
+}
+
+/* Box Model */
+
+.container {
+    /* background-color: rgb(245, 252, 250); */
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .social {
+    background: green;
+    padding: 15px;
+    margin: 5px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color:blueviolet
+    
+} */
+
+.box-model div {
+    float: left;
+    background-color: aquamarine;
+    height: 200px;
+    width: 25%;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+    
+}
+
+.list li {
+    color: #86898f
+    
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+/* .table td:nth-child(1)  {
+    color: rgb(30, 255, 0);
+
+} */
+
+.link-list {
+    list-style: square;
+    padding: 0;
+    /* transform: rotate(45deg); */
+    
+
+}
+
+.link-list li {
+    margin-bottom: 10px; 
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #17db27;
+    cursor: pointer;
+    
+
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
